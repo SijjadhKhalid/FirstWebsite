@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale-1">
+		<title>Sijjad Khalid</title>
+		<link href= "Styles.css" rel="stylesheet" type="text/css"/>
+		
+		<script>
+		    /***************** Smooth Scrolling ******************/
+
+    $(function () {
+
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 90
+                    }, 2000);
+                    return false;
+                }
+            }
+        });
+
+    });
+		
+		</script>
+		
+		
+	</head>
+
+
+	<body>
+	<!-- Video Background -->
+	<video autoplay muted loop id="myVideo">
+		<source src="elements/video.mp4" type="video/mp4">
+	</video>
+	
+	<header>
+	<!-- create link to another mullti page-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class = "container">
+			<span class = "text1">Sijjad's Portfolio</span>
+			<span class = "text2">Email: Sijjad.Khalid@gmail.com</span>
+		</div>
+
+	</header>
+	
+	
+	<!-- Creat a banner div for image  
+	<div class= "img-background" ></div>-->
+	
+	<a href="https://www.linkedin.com/in/sijjad-khalid/" target="_blank">
+	<div class = "linkedinPicture"></div> </a>
+	
+	<a href = "https://github.com/SijjadhKhalid" target = "blank">
+	<div class = "githubPicture"></div></a>
+	
+	<a href = "extra.html" >
+	<div class = "achievementPicture"></div>
+	</a>
+
+	<textarea disabled>
+
+ABOUT ME:
+
+I am a student at Penn State Abington currently studying in Information Science Technology. My skills consist of problem solving, trouble shooting, 
+and finding solutions to programming concerns. On my free time outside of work you can catch me playing basketball, working on side projects, and 
+resisting the urge to eat junk food. I take pride in my positive mindset, passion for learning new skills, and determination to succeed. 
+	</textarea>
+	
+
+	</body>
+
+</html>
+
+
+
+
