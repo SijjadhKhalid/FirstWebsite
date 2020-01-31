@@ -5,5 +5,5 @@ Created an online portfolio for my first website
 Links to linkedin, Github and Extracurriculars with some animated effects. Included a navigation bar and a description area on the bottom of the page.
 
 # Functionality 
-This is a website portfolio which will be able to help recruiters view your professional endeavors and projects with more ease.
+Website portfolios help group your projects amd professional history in one place
 
